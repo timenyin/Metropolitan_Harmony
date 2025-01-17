@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Skillernell Landing Page</title>
+</head>
+<body>
+   <!-- Header START -->
+<header class="navbar-light">
+	<!-- Nav START -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar-shadow">
+        <div class="container">
+            <a class="navbar-brand text-danger" href="index.html">
+				Skillernell
+			</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Nav Course menu START -->
+				<ul class="btn btn-danger btn_nav btn-shadow nav_font text-white mt-2 ms-3 me-3">
+					<!-- Nav item 1 Demos -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active" href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+						<ul class="dropdown-menu" aria-labelledby="demoMenu">
+							<li> <a class="dropdown-item active" href="#!">Computer Science</a></li>
+							<li> <a class="dropdown-item" href="#!">Business Administration</a></li>
+							<li> <a class="dropdown-item" href="#!">Psychology</a></li>
+							<li> <a class="dropdown-item" href="#!">Mechanical Engineering</a></li>
+							<li> <a class="dropdown-item" href="#!">Environmental Science</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!-- Nav Course menu END -->
+             
+            <ul class="navbar-nav me-auto mb-2 ms-3 me-3 mb-lg-0">
+                <!--Nav Category  -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav_font text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Education</a></li>
+                  <li><a class="dropdown-item" href="#">Engineering</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Science</a></li>
+                </ul>
+              </li>
+              <!--Nav Category  -->
+
+              <li class="nav-item ms-3">
+                <a class="nav-link nav_font text-dark" aria-current="page" href="#">Review</a>
+              </li>
+            </ul>
+            <!-- Form Search Bar -->
+            <form class="d-flex search-form align-items-center me-auto">
+                <input
+                    class="form-control search-input"
+                    type="search"
+                    placeholder="What do you want to learn?"
+                    aria-label="Search"
+                />
+                <button class="btn search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <!--End  Form Search Bar -->
+            <!-- Button Nav -->
+            <div class="d-flex align-items-center flex-wrap flex-lg-nowrap">
+                <button class="btn btn-white btn-shadow text-dark nav_font me-3 mt-2 mt-lg-0">
+                    Login
+                </button>
+                <button class="btn btn-white btn-shadow text-white nav_font bg-danger mt-2 mt-lg-0">
+                    Apply now
+                </button>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+	<!-- Nav END -->
+</header>
+<!-- Header END -->
+<!-- main -->
+
+<!-- Hero Section -->
+<section class="container hero-section text-white mt-3">
+    <!-- Bootstrap Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 ps-5">
+          <h1 class="fw-bolder display-4">
+            <span class="text-danger">Online Learning</span> Designed For Real Life
+          </h1>
+          <p class="mt-3 fs-5">
+            Move your creative journey forward without putting life on hold. 
+            Our programs will help you find inspiration that fits your routine.
+          </p>
+          <div class="mt-4">
+            <a href="#!" class="btn btn-danger btn-lg me-3 btn-shadow nav_font my-2">Explore all courses</a>
+            <a href="#!" class="btn btn-outline-light btn-lg btn-shadow login_width bg-white text-dark nav_font my-2">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Hero Section -->
+
+<!-- Search Input Section -->
+<section class="container py-5">
+    <!-- Title Section -->
+    <h2 class="mb-4 h2_style">Search for courses</h2>
+    <form class="row gx-3 gy-2 align-items-center">
+      <!-- Input Field -->
+      <div class="col-12 col-md">
+        <input 
+          type="text" 
+          class="form-control custom-input search_width" 
+          placeholder="What do you want to learn?" 
+        />
+      </div>
+  
+      <!-- Dropdown 1 -->
+      <div class="col-12 col-md">
+        <select class="form-select custom-select search_width">
+          <option selected>--Choose--</option>
+          <option value="1">Category 1</option>
+          <option value="2">Category 2</option>
+        </select>
+      </div>
+  
+      <!-- Dropdown 2 -->
+      <div class="col-12 col-md">
+        <select class="form-select custom-select search_width">
+          <option selected>--Choose--</option>
+          <option value="1">Subject 1</option>
+          <option value="2">Subject 2</option>
+        </select>
+      </div>
+  
+      <!-- Button -->
+      <div class="col-12 col-md-auto">
+        <button type="submit" class="btn custom-btn search_width">
+          Search <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+  </section>
+  
+<!-- End Search Input Section -->
+
+<!-- Popular Courses Section -->
+<section class="container py-5">
+    <!-- title section -->
+    <h2 class="mb-4 h2_style">Popular courses</h2>
+    <div id="coursesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center gap-4">
+            <!-- Course Card 1 -->
+            <div class="col-md-5 course-card">
+              <h3 class="course-title">
+                Executive Master of Business Administration (EMBA) in Public Health
+              </h3>
+              <p class="course-desc">
+                This programme is designed to provide insights into understanding and managing the public health system.
+              </p>
+              <div class="row">
+                <!-- List Column -->
+                <div class="col-md-7">
+                  <ul class="course-list">
+                    <li class="badge-item">✔ Access to this course.</li>
+                    <li class="badge-item">✔ Access to library.</li>
+                    <li class="badge-item">✔ Learn at your own pace.</li>
+                    <li class="badge-item">✔ Tests to boost your learning.</li>
+                    <li class="badge-item">✔ Digital certificate when eligible.</li>
+                  </ul>
+                </div>
+              
+                <!-- Meta Column -->
+                <div class="col-md-5">
+                  <div class="course-meta">
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Course starts</h6>
+                        <h5 class="py-0 mt-0 h2_style">Anytime</h5>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Completion time</h6>
+                        <h5 class="py-0 mt-0 h2_style">2 Weeks</h5>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Limited time offer</h6>
+                        <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+                    </div>
+
+                  </div>
+                </div>
+                
+              </div>
+              <!-- view button 1 -->
+              <button class="btn reusable-btn w-100 btn-shadow py-3 mt-6">View course details</button>
+            </div>
+            <!-- Course Card 2 -->
+            <div class="col-md-5 course-card">
+              <h3 class="course-title">
+                Professional Certificate Course in Understanding Accounting Concepts Principles and Theories
+              </h3>
+              <p class="course-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi minima quod dignissimos...
+              </p>
+              <div class="row">
+                <!-- List Column -->
+                <div class="col-md-7">
+                  <ul class="course-list">
+                    <li class="badge-item">✔ Access to this course.</li>
+                    <li class="badge-item">✔ Access to library.</li>
+                    <li class="badge-item">✔ Learn at your own pace.</li>
+                    <li class="badge-item">✔ Tests to boost your learning.</li>
+                    <li class="badge-item">✔ Digital certificate when eligible.</li>
+                  </ul>
+                </div>
+              
+                <!-- Meta Column -->
+                <div class="col-md-5">
+                  <div class="course-meta">
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Course starts</h6>
+                        <h5 class="py-0 mt-0 h2_style">Anytime</h5>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Completion time</h6>
+                        <h5 class="py-0 mt-0 h2_style">2 Weeks</h5>
+                    </div>
+
+                    <div class="mb-4">
+                        <h6 class="py-0 mb-0">Limited time offer</h6>
+                        <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+                    </div>
+
+                  </div>
+                </div>
+                
+              </div>
+
+               <!-- view button  2-->
+              <button class="btn reusable-btn w-100 btn-shadow py-3">View course details</button>
+            </div>
+          </div>
+        </div>
+        <!-- Add more carousel items here if needed -->
+      </div>
+  
+      <!-- Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#coursesCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#coursesCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <div class="indicator my-4">
+        <i class="fa-solid fa-circle dot_indicator text-primary"></i>
+        <i class="fa-solid fa-circle dot_indicator text-primary"></i>
+        <i class="fa-solid fa-circle dot_indicator text-primary"></i>
+      </div>
+    </div>
+
+    <button class="btn btn-lg btn-shadow bg-white text-dark py-3 view-all-btn">View all courses <i class="fa-solid fa-angle-right"></i></button>
+  </section>
+<!-- Popular Courses Section -->
+
+<!-- Card Section -->
+<div class="course-card">
+<!-- Card Section 1 -->
+<div class="container  py-5">
+    <div class="d-flex justify-content-end mb-3">
+      <button class="btn btn-outline-secondary me-2"><i class="fa-solid fa-angle-left text-danger icon_size_small"></i></button>
+      <button class="btn btn-outline-secondary"><i class="fa-solid fa-angle-right text-danger icon_size_small"></i></button>
+    </div>
+
+    <div class="row g-4">
+      <!-- First Card -->
+      <div class="col-md-3">
+        <div class="card custom-pattern h-100 text-white bg-warning btn-shadow">
+          <div class="card-body left_side_card">
+            <h2 class="card-title mt-5 ps-3 h2_style text-dark">Explore <br> short <br> courses</h2>
+            <p class="card-text ps-3 text-dark">Explore our newest programmes, focused on delivering in-demand skills.</p>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark  fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img2.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Executive Master of Business Administration (EMBA)</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img3.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Master of Arts (MA) in Project Management</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Fourth Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img4.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Advanced Certificate in Leadership in Leadership and Organization Behavior</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi minima.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End  Card Section 1 -->
+
+<!-- Card Section 2 -->
+<div class="container py-5">
+    <div class="d-flex justify-content-end mb-3">
+      <button class="btn btn-outline-secondary me-2"><i class="fa-solid fa-angle-left text-danger icon_size_small"></i></button>
+      <button class="btn btn-outline-secondary"><i class="fa-solid fa-angle-right text-danger icon_size_small"></i></button>
+    </div>
+
+    <div class="row g-4">
+      <!-- First Card -->
+      <div class="col-md-3">
+        <div class="card custom-pattern h-100 text-white bg-primary btn-shadow">
+          <div class="card-body left_side_card">
+            <h2 class="card-title mt-5 ps-3 h2_style text-white">Explore <br> Degree <br> courses</h2>
+            <p class="card-text ps-3 text-white">Explore our newest programmes, focused on delivering in-demand skills.</p>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark  fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img2.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Executive Master of Business Administration (EMBA)</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img3.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Master of Arts (MA) in Project Management</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Fourth Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img4.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Advanced Certificate in Leadership in Leadership and Organization Behavior</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi minima.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End  Card Section 2 -->
+
+<!-- Card Section 3 -->
+<div class="container py-5">
+    <div class="d-flex justify-content-end mb-3">
+      <button class="btn btn-outline-secondary me-2"><i class="fa-solid fa-angle-left text-danger icon_size_small"></i></button>
+      <button class="btn btn-outline-secondary"><i class="fa-solid fa-angle-right text-danger icon_size_small"></i></button>
+    </div>
+
+    <div class="row g-4">
+      <!-- First Card -->
+      <div class="col-md-3">
+        <div class="card custom-pattern h-100 text-white bg-info btn-shadow">
+          <div class="card-body left_side_card">
+            <h2 class="card-title mt-5 ps-3 h2_style text-dark">Explore <br> Diploma <br> courses</h2>
+            <p class="card-text ps-3 text-dark">Explore our newest programmes, focused on delivering in-demand skills.</p>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark  fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img2.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Executive Master of Business Administration (EMBA)</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img3.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Master of Arts (MA) in Project Management</h5>
+            <p class="card-text">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Fourth Card -->
+      <div class="col-md-3">
+        <div class="card h-100 border border-1">
+          <div class="position-relative">
+            <img src="images/img4.jpg" class="card-img-top" alt="Course Image">
+            <div class="card-img-overlay">
+              <span class="badge badge-card text-secondary position-absolute bottom-0 start-0 mb-3 ms-2">
+                <i class="fa-solid fa-globe badge-card_icon me-1"></i> Online
+              </span>
+              <span class="badge badge-card text-secondary position-absolute bottom-0 end-0 mb-3 me-2">
+                <i class="fas fa-calendar-alt badge-card_icon me-1"></i> 12 Months
+              </span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2 fw-bold">Advanced Certificate in Leadership in Leadership and Organization Behavior</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi minima.</p>
+            <div class="">
+              <h5 class="py-0 mt-0 h2_style">£120 <del class="original-price">£216</del></h5>
+              <!-- view button  2-->
+              <a class="btn reusable-btn w-100 btn-shadow py-3">See course details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End  Card Section 3 -->
+
+<!-- Color Card Section -->
+<div class="container py-5">
+    <!-- title section -->
+    <div class="mb-4">
+      <h2 class="mb-1 h2_style">How a Professional Certificate Works</h2>
+      <p class="text-dark my-2">
+        Upskill, reskill or pursue a person with a short course across every subject, whether you're or already an expert.
+      </p>
+    </div>
+  
+    <div class="row g-4">
+      <!-- First Card -->
+      <div class="col-md-3">
+        <div class="card  h_card text-white bg-warning btn-shadow">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="card-title mt-3 ps-3 h2_style text-dark">Find the Right Program For <br> Your Career</h2>
+              <p class="card-text ps-3 text-dark">Explore our newest programmes, focused on delivering in-demand skills.</p>
+            </div>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Second Card -->
+      <div class="col-md-3">
+        <div class="card h_card text-white bg-primary btn-shadow">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="card-title mt-3 ps-3 h2_style text-white">Learn & <br> Gain Expertise <br> at Your Own <br>Peace</h2>
+              <p class="card-text ps-3 text-white">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            </div>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Third Card -->
+      <div class="col-md-3">
+        <div class="card h_card text-white bg-info btn-shadow">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="card-title mt-3 ps-3 h2_style text-dark">Earn a <br> Valuable <br> Credential</h2>
+              <p class="card-text ps-3 text-dark">The programme's objective is to equip you with a deeper understanding of entertainment management and media.</p>
+            </div>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Fourth Card -->
+      <div class="col-md-3">
+        <div class="card h_card text-white bg-success btn-shadow">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="card-title mt-3 ps-3 h2_style text-white">Stand Out in <br> Your Field</h2>
+              <p class="card-text ps-3 text-white">Explore our newest programmes, focused on delivering in-demand skills.</p>
+            </div>
+            <a href="#" class="btn btn-light btn-shadow bg-white text-dark fw-bold ms-0 py-3 w-100">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Color Card Section -->
+</div>
+<!-- Card Section -->
+
+<!-- Find Course Section -->
+<section class="container py-5">
+          <div class="row justify-content-center gap-2">
+            <!-- Course Card 1 -->
+            <div class="col-md-5">
+              <img class="img-fluid btn-shadow mt-4" src="images/img5.jpg" alt="find_course_img">
+            </div>
+            <!-- Course Card 2 -->
+            <div class="col-md-6">
+              <h3 class="course-title underline_title my-3">
+                Find the Right Course For You
+              </h3>
+              <p class="course-desc py-2">
+                Choose Over <span class="h2_style">21, 000 Course</span> and <span class="h2_style">Learning Path</span>
+                dozens added each week. 
+              </p>
+              <div class="row">
+                <h5 class="h2_style">Popular Topics</h5>
+                <!-- List Column -->
+                <div class="col-md-12">
+                    <ul class="course-list_2">
+                      <li class="badge-item_2">Business Management</li>
+                      <li class="badge-item_2">Health and Psychology</li>
+                      <li class="badge-item_2">Business Law</li>
+                      <li class="badge-item_2">Information Technology</li>
+                      <li class="badge-item_2">Personal Development</li>
+                      <li class="badge-item_2">Teaching and Education</li>
+                      <li class="badge-item_2">Finance and Accounting</li>
+                      <li class="badge-item_2">Office Productivity</li>
+                      <li class="badge-item_2">Sales and Marketing</li>
+                      <li class="badge-item_2">Leadership and Entrepreneurship</li>
+                    </ul>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        
+        <!-- Add more carousel items here if needed -->
+  </section>
+<!-- End Find Course Section  -->
+
+<!-- Testimonials Sections  -->
+<section class="container course-card py-5">
+    <div class="row justify-content-center gap-2">
+      <!-- Course Card 1 -->
+      <div class="col-md-5">
+        <h3 class="course-title underline_title mt-5">How Learning like you are achieving their  goal</h3>
+        
+          <p class="course-desc py-3">
+            Participants in our course don't just learn new skills, 
+            they enjoy the experience too. 
+          </p>
+      </div>
+      <!-- Course Card 2 -->
+      <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="rounded-circle img-fluid mt-3" src="images/05.jpg" alt="profile">
+            </div>
+            <div class="col-md-8">
+                <div class="d-flex justify-content-end mb-3">
+                    <button class="btn btn-outline-secondary me-2"><i class="fa-solid fa-angle-left text-danger icon_size_small"></i></button>
+                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-angle-right text-danger icon_size_small"></i></button>
+                  </div>
+                <h3 class="h2_style fst-italic my-3">Andrew Samson</h3>
+                <h6 class="text-secondary fst-italic mt-2">Compunction Manger, Pepsi</h6>
+
+                <h5 class="fw-bold my-3">Executive Education </h5>
+
+                <!-- star icons -->
+                <div class="star_icon">
+                    <i class="st_sm fa-solid fa-star text-warning"></i>
+                    <i class="st_sm fa-solid fa-star text-warning"></i>
+                    <i class="st_sm fa-solid fa-star text-warning"></i>
+                    <i class="st_sm fa-solid fa-star text-warning"></i>
+                    <i class="st_sm fa-solid fa-star text-warning"></i>
+                </div>
+
+                  <p class="course-desc py-2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, reiciendis
+                     fugit rerum corrupti ipsa veritatis, distinctio repudiandae quasi quia 
+                     omnis dicta culpa esse temporibus deserunt ducimus facere! Officia non
+                      perferendis voluptatibus culpa officiis veniam. Quibusdam debitis a 
+                      blanditiis ea dignissimos facere! Quam numquam, voluptates natus 
+                      impedit.
+                  </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!-- Add more carousel items here if needed -->
+</section>
+<!--End  Testimonials Sections  -->
+
+<!-- Footer Section  -->
+<footer class="text-white footer_bg py-5">
+    <!-- First Section: 3 Columns -->
+    <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="footer-heading">About Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link">Our Mission and Vision</a></li>
+              <li><a href="#" class="footer-link">Our Partners</a></li>
+              <li><a href="#" class="footer-link">Become a Partner</a></li>
+              <li><a href="#" class="footer-link">Contact us</a></li>
+              <li><a href="#" class="footer-link">Review</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="footer-heading">Popular Subjects</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link">Business Management</a></li>
+              <li><a href="#" class="footer-link">Personal Development</a></li>
+              <li><a href="#" class="footer-link">Business Law</a></li>
+              <li><a href="#" class="footer-link">Sales and Marketing</a></li>
+              <li><a href="#" class="footer-link">Office Productivity</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="footer-heading">Small Print</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link">Terms and Conditions</a></li>
+              <li><a href="#" class="footer-link">Privacy Policy</a></li>
+              <li><a href="#" class="footer-link">Refund Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+  
+    <!-- Second Section: Newsletter Signup -->
+    <div class="border-secondary border-top border-bottom text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Newsletter Section -->
+          <div class="col-md-6">
+            <h4 class="mb-0 me-3 footer-heading">Sign Up to Our Newsletter</h4>
+            <p>Stay up to date with the latest news, announcements, and articles.</p>
+          </div>
+          <div class="col-md-6">
+            <form class="d-flex search-form align-items-center me-auto">
+                <input
+                    class="form-control search-input"
+                    type="search"
+                    placeholder="Enter your email address"
+                    aria-label="Search"
+                />
+                <button class="btn search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+             <!-- End Subscribe Form -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Third Section: Social Media and Copyright -->
+    <div class="text-white py-3 social-container">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Social Media Links -->
+            <div class="col-md-6">
+              <a href="#" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <!-- Copyright -->
+            <div class="col-md-6 text-end">
+              <p class="mb-0">© Skillernel 2025 All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </footer>
+  
+<!-- End Footer Section  -->
+
+<!-- Hover Items -->
+<div class="cart-icon-container position-fixed">
+    <div class="cart-icon rounded-circle bg-black border border-white d-flex justify-content-center align-items-center">
+      <i class="fa-solid fa-cart-shopping text-white"></i>
+      <span class="cart-badge bg-danger text-white rounded-circle">10</span>
+    </div>
+  </div>
+  
+
+<!-- End  Main -->
+
+    <!-- Script Files -->
+    <!-- Bootstrap Script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom css -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
